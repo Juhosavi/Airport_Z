@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Airport Z</title>
+    <link rel="stylesheet" href="travel.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js" defer></script>
+    <script src="travel.js" defer></script>
+</head>
+<body>
+<h1>Airport Z</h1>
+<h2><span id="destination"></span></h2>
+<h2><span id="location"></span></h2>
+    <div id="player_stats"></div>
+    <button id="search">Search Airport</button>
+    <button id ="travel">Travel</button>
+    <button id ="bandage">Use bandage</button>
+    <div id="kartta"></div>
+    <label for="airportSelect"></label><select id="airportSelect">
+    <option value=""></option>
+    </select>
+    <button id="travel_confirm">Confirm</button>
+    <div id="gifContainer"></div>
+    <div id="gameInfo">
+        The world is not what it used to be. A virus has infected most of the population, turning people into zombies.
+        At your destination airport there is rumored to be a vaccine.
+        You must get there to survive this nightmare.
+        This game uses turn-based combat. The player attacks first and then each enemy attacks the player.
+        If your health during combat decreases to zero, you die. Pay attention to your statistics.
+        You gain experience points for defeating enemies. With enough points you level up and your damage and health increases.
+        You need fuel in order to travel to another airport. You can search for more fuel and bandages at each airport.
+    </div>
+</body>
+</html>
